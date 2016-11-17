@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:agg="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.DashBoardActivity">
+    <item
+        android:id="@+id/menu_date"
+        android:orderInCategory="100"
+        android:title="Date"
+        agg:showAsAction="never" />
+    <item
+    android:id="@+id/menu_country"
+    android:orderInCategory="100"
+    android:title="Country"
+    agg:showAsAction="never" />
+    <item
+        android:id="@+id/menu_game"
+        android:orderInCategory="100"
+        android:title="Game"
+        agg:showAsAction="never" />
+</menu>
